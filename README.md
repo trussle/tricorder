@@ -42,14 +42,14 @@ The options object supports the following properties;
 ### Http
 
 * http_requests (gauge)
-* http_requests_count (counter)
-* http_request_duration_seconds (histogram) - count duration in `prom-client` default buckets
+* http_requests_count{labels} (counter)
+* http_request_duration_seconds{labels} (histogram) - count duration in `prom-client` default buckets
 
-In each case, the following labels are used:
+When labels are indicated as in included they will be as follows;
 
 * status: the http status code of the response, e.g. 200, 500
 * method: the http method of the request, e.g. put, post.
-* path: the path of the request. Note that /users/freddie is labelled /users/{userId} so as not to flood prometheus with labels
+* path: the path of the request. Note that /users/freddie is labelled /users/:id so not to create a large number of timeseries 
 
 ### System
 

@@ -4,18 +4,13 @@
   "description": "Express middleware to provide basic metrics to Prometheus",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest . "
+    "test": "jest --env=node ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trussle/tricorder.git"
   },
-  "keywords": [
-    "Prometheus",
-    "Express",
-    "Node",
-    "Middleware"
-  ],
+  "keywords": ["Prometheus", "Express", "Node", "Middleware"],
   "author": "Trussle",
   "license": "MIT",
   "bugs": {
@@ -25,5 +20,10 @@
   "dependencies": {
     "prom-client": "^10.2.2",
     "prometheus-gc-stats": "^0.5.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "jest": "^22.3.0",
+    "supertest": "^3.0.0"
   }
 }
