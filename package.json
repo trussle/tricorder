@@ -4,13 +4,20 @@
   "description": "Express middleware to provide basic metrics to Prometheus",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest --env=node ."
+    "test": "jest --env=node .",
+    "lint": "eslint lib/**/*.js",
+    "lint:fix": "prettier --write lib/**/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trussle/tricorder.git"
   },
-  "keywords": ["Prometheus", "Express", "Node", "Middleware"],
+  "keywords": [
+    "Prometheus",
+    "Express",
+    "Node",
+    "Middleware"
+  ],
   "author": "Trussle",
   "license": "MIT",
   "bugs": {
@@ -22,8 +29,11 @@
     "prometheus-gc-stats": "^0.5.0"
   },
   "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-prettier": "^2.9.0",
     "express": "^4.16.2",
     "jest": "^22.3.0",
+    "prettier": "1.10.2",
     "supertest": "^3.0.0"
   }
 }
