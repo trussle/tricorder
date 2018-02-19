@@ -42,7 +42,7 @@ The options object supports the following properties;
 ### Http
 
 * http_requests (gauge)
-* http_requests_count{labels} (counter)
+* http_requests_total{labels} (counter)
 * http_request_duration_seconds{labels} (histogram) - count duration in `prom-client` default buckets
 
 When labels are indicated as in included they will be as follows;
