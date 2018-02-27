@@ -1,6 +1,6 @@
 {
   "name": "@trussle/tricorder",
-  "version": "1.0.0-beta01",
+  "version": "1.0.0-beta02",
   "description": "Express middleware to provide basic metrics to Prometheus",
   "main": "lib/index.js",
   "scripts": {
