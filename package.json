@@ -1,6 +1,6 @@
 {
   "name": "@trussle/tricorder",
-  "version": "1.0.0-beta02",
+  "version": "1.0.0",
   "description": "Express middleware to provide basic metrics to Prometheus",
   "main": "lib/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   ],
   "author": "Trussle",
   "license": "MIT",
+  "private": false,
   "bugs": {
     "url": "https://github.com/trussle/tricorder/issues"
   },
