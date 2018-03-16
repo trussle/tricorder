@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Express middleware to provide basic metrics to Prometheus",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --env=node .",
     "test:coverage": "jest --env=node --coverage .",
@@ -32,6 +33,7 @@
   },
   "homepage": "https://github.com/trussle/tricorder#readme",
   "dependencies": {
+    "@types/express": "^4.11.1",
     "prom-client": "^10.2.2",
     "prometheus-gc-stats": "^0.5.0"
   },
