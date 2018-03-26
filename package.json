@@ -34,7 +34,7 @@
   "homepage": "https://github.com/trussle/tricorder#readme",
   "dependencies": {
     "@types/express": "^4.11.1",
-    "prom-client": "^10.2.2",
+    "prom-client": "^11.0.0",
     "prometheus-gc-stats": "^0.5.0"
   },
   "devDependencies": {
