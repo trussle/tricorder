@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/trussle/tricorder.svg?branch=master)](https://travis-ci.org/trussle/tricorder)
 
-[![Coverage Status](https://coveralls.io/repos/github/trussle/tricorder/badge.svg?branch=travis-ci)](https://coveralls.io/github/trussle/tricorder?branch=travis-ci)
-
 [Express](https://github.com/expressjs/express) middleware to provide basic metrics to [Prometheus](https://prometheus.io).
 
 Prometheus is an open source monitoring solution that obtains metrics from servers by querying against the `/metrics` endpoint upon them.
