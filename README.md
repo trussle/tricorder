@@ -1,8 +1,8 @@
 # Tricorder
 
 [![Build Status](https://travis-ci.org/trussle/tricorder.svg?branch=master)](https://travis-ci.org/trussle/tricorder)
-
-[![Coverage Status](https://coveralls.io/repos/github/trussle/tricorder/badge.svg?branch=travis-ci)](https://coveralls.io/github/trussle/tricorder?branch=travis-ci)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6886b25aba70b76cbe08/maintainability)](https://codeclimate.com/github/trussle/tricorder/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6886b25aba70b76cbe08/test_coverage)](https://codeclimate.com/github/trussle/tricorder/test_coverage)
 
 [Express](https://github.com/expressjs/express) middleware to provide basic metrics to [Prometheus](https://prometheus.io).
 
