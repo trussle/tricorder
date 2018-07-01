@@ -38,7 +38,7 @@
     "prometheus-gc-stats": "^0.5.0"
   },
   "devDependencies": {
-    "coveralls": "3.0.1",
+    "coveralls": "3.0.2",
     "eslint": "5.0.0",
     "eslint-config-prettier": "2.9.0",
     "express": "4.16.3",
