@@ -4,6 +4,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6886b25aba70b76cbe08/maintainability)](https://codeclimate.com/github/trussle/tricorder/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6886b25aba70b76cbe08/test_coverage)](https://codeclimate.com/github/trussle/tricorder/test_coverage)
 
+*Maintained by [@jonnyarnold](https://github.com/jonnyarnold/)*
+
 [Express](https://github.com/expressjs/express) middleware to provide basic metrics to [Prometheus](https://prometheus.io).
 
 Prometheus is an open source monitoring solution that obtains metrics from servers by querying against the `/metrics` endpoint upon them.
